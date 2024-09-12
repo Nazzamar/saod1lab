@@ -1,6 +1,13 @@
 #include <iostream>
 #include <iomanip>
 
+struct rbtree
+{
+    int key;
+    int value;
+    bool color;
+
+};
 struct rbtree *rbtree_add(struct rbtree *root, int key, char *value);
 struct rbtree *rbtree_lookup(struct rbtree *root, int key);
 struct rbtree *rbtree_delete(struct rbtree *root, int key);

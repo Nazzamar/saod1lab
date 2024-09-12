@@ -2,7 +2,7 @@
 
 struct rbtree *rbtree_add(struct rbtree *root, int key, char *value)
 {
-//https://publ.lib.ru/ARCHIVES/L/LEVITIN_Ananiy_V/_Levitin_A.V..html
+
 }
 struct rbtree *rbtree_lookup(struct rbtree *root, int key)
 {
